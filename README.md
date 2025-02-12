@@ -1,16 +1,16 @@
-# 🍗 TeraPollos
+﻿# TeraPollos
 
 ## Estructura del Proyecto
 
-### Carpeta y archivos
+### Carpeta y Archivos
 
 | Carpeta/Archivo      | Descripción                                                      |
 |----------------------|------------------------------------------------------------------|
-| `Models/`            | Contiene clases de la base de datos (BD).                   |
-| `Views/`             | Contiene las vistas de la UI. **(No modificar sin autorización)**. |
-| `Resources/Images/`   | Contiene imágenes e iconos de la aplicación.                     |
-| `App.xaml`           | Archivo de recursos globales. **(No modificar sin autorización)**. |
-| `AppShell.xaml`      | Puerta de entrada a la app de shell. **(No modificar sin autorización)**. |
+| `Models/`            | Para modelar objetos de la base de datos (BD).                   |
+| `Views/`             | Contiene las vistas de la UI. **No modificar sin autorización**. |
+| `Resources/Images`   | Contiene imágenes e iconos de la aplicación.                     |
+| `App.xaml`           | Archivo de recursos globales. **No modificar sin autorización**. |
+| `AppShell.xaml`      | Puerta de entrada al shell de la app. **No modificar sin autorización**. |
 
 ### Reglas de Nomenclatura
 
@@ -19,4 +19,4 @@
 - **Páginas**: Deben terminar con `Page` en su nombre.
 - **Vistas**: Deben terminar con `View` en su nombre.
 
-**Nota:** Si crea una vista de componente personalizada debe documentar sus miembros públicos con comentarios XML.
+**Nota: ** Si crea una vista de componente rehusable debe documentar sus miembros públicos con comentarios XML.
