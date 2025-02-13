@@ -2,14 +2,6 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TeraPollos.Views.MainPage"
+             xmlns:views ="clr-namespace:TeraPollos.Views"
              Title="MainPage">
-    
-    <VerticalStackLayout>
-        <Label x:Name="myLabel"
-               Text="Página principal"
-               VerticalOptions="Center"
-               HorizontalOptions="Center" />
-
-    </VerticalStackLayout>
-    
 </ContentPage>

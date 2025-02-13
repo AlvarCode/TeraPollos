@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:views="clr-namespace:TeraPollos.Views"
+             Padding="0"
+             x:Class="TeraPollos.Views.LoginPage">
+
+    <VerticalStackLayout>
+        <Label BackgroundColor="{StaticResource AccentColor}"
+               Padding="0, 20, 0, 20"
+               Text="TeraPollos"
+               TextColor="White"
+               Style="{StaticResource Title}"
+               />
+
+        <Grid ColumnDefinitions="*,Auto,*"
+              RowDefinitions="*,Auto,*"
+              HeightRequest="600">
+            <VerticalStackLayout BackgroundColor="{StaticResource PlaceholderColor}" 
+                                 Grid.Column="1"
+                                 Grid.Row="1"
+                                 Padding="30"
+                                 Spacing="10">
+                <Label
+                    Text="Iniciar sesión"
+                    HorizontalTextAlignment="Center"
+                    Style="{StaticResource Subtitle}"
+       
+                    />
+                <views:EntryView PlaceholderText="Codigó"/>
+                <views:EntryView PlaceholderText="Contraseña"/>
+            </VerticalStackLayout>
+        </Grid>
+
+        
+    </VerticalStackLayout>
+
+</ContentPage>

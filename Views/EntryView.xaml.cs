@@ -45,7 +45,7 @@ public partial class EntryView : ContentView
 	/// la siguiente firma:
 	/// <example>
 	/// <code>
-	/// void HandlerMethodName(TextEventArgs e) { ... }
+	/// void HandlerMethodName(TextChangedEventArgs e) { ... }
 	/// </code>
 	/// </example>
     /// </summary>

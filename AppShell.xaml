@@ -5,10 +5,9 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:TeraPollos"
     xmlns:views="clr-namespace:TeraPollos.Views"
-    Shell.FlyoutBehavior="Flyout"
+    Shell.FlyoutBehavior="Disabled"
     Title="TeraPollos">
 
-    <ShellContent Title="Home"
-                  ContentTemplate="{DataTemplate views:MainPage}" />
+    <ShellContent ContentTemplate="{DataTemplate views:LoginPage}" />
 
 </Shell>

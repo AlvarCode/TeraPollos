@@ -39,12 +39,16 @@
                         Value="28" />
                 <Setter Property="HorizontalTextAlignment"
                         Value="Center" />
+                <Setter Property="FontAttributes"
+                        Value="Bold" />
             </Style>
 
             <Style x:Key="Subtitle"
                    TargetType="Label">
                 <Setter Property="FontSize"
                         Value="22" />
+                <Setter Property="FontAttributes"
+                        Value="Bold" />
             </Style>
 
             <Style TargetType="Button">
