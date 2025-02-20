@@ -8,6 +8,14 @@
     Shell.FlyoutBehavior="Disabled"
     Title="TeraPollos">
 
-    <ShellContent ContentTemplate="{DataTemplate views:LoginPage}" />
+    <Shell.FlyoutContent>
+        <StackLayout Padding="30" Spacing="20">
+            <Button Text="Ventas" FontAttributes="Bold" Background="Bisque" TextColor="Black"/>
+            <Button Text="Menú" FontAttributes="Bold" Background="Bisque" TextColor="Black"/>
+            <Button Text="Historial" FontAttributes="Bold" Background="Bisque" TextColor="Black"/>
+            <Button Text="Cerrar sesión" FontAttributes="Bold" Background="Bisque" TextColor="Black"/>
+        </StackLayout>
+    </Shell.FlyoutContent>
 
+    <ShellContent ContentTemplate="{DataTemplate views:LoginPage}" />
 </Shell>

@@ -14,25 +14,33 @@
                />
 
         <Grid ColumnDefinitions="*,Auto,*"
-              RowDefinitions="*,Auto,*"
-              HeightRequest="600">
-            <VerticalStackLayout BackgroundColor="{StaticResource PlaceholderColor}" 
-                                 Grid.Column="1"
-                                 Grid.Row="1"
-                                 Padding="30"
-                                 Spacing="10">
-                <Label
-                    Text="Iniciar sesión"
-                    HorizontalTextAlignment="Center"
-                    Style="{StaticResource Subtitle}"
-       
-                    />
-                <views:EntryView PlaceholderText="Codigó"/>
-                <views:EntryView PlaceholderText="Contraseña"/>
+      RowDefinitions="*,Auto,*"
+      HeightRequest="500">
+            <VerticalStackLayout Grid.Row="1"
+                         Grid.Column="1"
+                         HorizontalOptions="Center"
+                         VerticalOptions="Center">
+
+                <Border StrokeShape="RoundRectangle 20"
+                BackgroundColor="{StaticResource PlaceholderColor}"
+                Padding="10"
+                WidthRequest="300"
+                HorizontalOptions="Center"
+                VerticalOptions="Center">
+
+                    <VerticalStackLayout Padding="30" Spacing="10">
+                        <Label Text="Iniciar sesión"
+                       TextColor="White"
+                       HorizontalTextAlignment="Center"
+                       Style="{StaticResource Subtitle}"/>
+                        
+                        <views:EntryView x:Name="codigo" PlaceholderText="Código"/>
+                        <views:EntryView x:Name="contra" PlaceholderText="Contraseña"/>
+                        <Button Text="Confirmar" Background="Bisque" TextColor="Black" FontAttributes="Bold" Clicked="Button_Clicked"/>
+                    </VerticalStackLayout>
+                </Border>
             </VerticalStackLayout>
         </Grid>
-
-        
     </VerticalStackLayout>
 
 </ContentPage>
